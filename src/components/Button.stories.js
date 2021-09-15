@@ -20,7 +20,9 @@ Primary.args = {
 };
 
 Primary.parameters = {
-  storyDescription: 'Shows primary button'
+  docs: {
+    storyDescription: 'Shows primary button'
+  }
 }
 
 export const Secondary = Template.bind({});
@@ -30,7 +32,9 @@ Secondary.args = {
 };
 
 Secondary.parameters = {
-  storyDescription: 'Shows secondary button'
+  docs: {
+    storyDescription: 'Shows secondary button'
+  }
 }
 
 export const Large = Template.bind({});
@@ -41,7 +45,9 @@ Large.args = {
 };
 
 Large.parameters = {
-  storyDescription: 'Shows large button size'
+  docs: {
+    storyDescription: 'Shows large button size'
+  }
 }
 
 export const Small = Template.bind({});
@@ -52,5 +58,7 @@ Small.args = {
 };
 
 Small.parameters = {
-  storyDescription: 'Shows small button size'
+  docs: {
+    storyDescription: 'Shows small button size'
+  }
 }
