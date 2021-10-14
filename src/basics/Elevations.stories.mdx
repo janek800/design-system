@@ -1,0 +1,336 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Basics/Elevations" />
+
+# Elevations
+
+Multiple layers of shadows are embedded into one shadow style, check out the CSS implementation below 👇
+
+<https://www.w3schools.com/code/tryit.asp?filename=GFDB2QTTX6MU>
+
+<div style={{ display: "flex", flexWrap: "wrap", marginTop: "84px" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow: "inset 0px -1px 0px rgba(0, 0, 0, 0.12)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Bottom</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "inset 0px 1px 0px rgba(0, 0, 0, 0.12), inset 0px -1px 0px rgba(0, 0, 0, 0.12)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Top & Bottom</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow: "inset 0px 1px 0px rgba(0, 0, 0, 0.12)",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Top</div>
+  </div>
+</div>
+
+<div style={{ display: "flex", flexWrap: "wrap", marginTop: "84px" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow: "1px 0px 0px rgba(0, 0, 0, 0.12)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Right</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow: "-1px 0px 0px rgba(0, 0, 0, 0.12)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Left</div>
+  </div>
+</div>
+
+<div style={{ display: "flex", flexWrap: "wrap", marginTop: "84px" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 1px 1px rgba(0, 0, 0, 0.06), 0px 2px 1px rgba(0, 0, 0, 0.04), 0px 0px 3px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>01 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 1px 2px rgba(0, 0, 0, 0.06), 0px 2px 1px rgba(0, 0, 0, 0.04), 0px 1px 5px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>02 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 3px 4px rgba(0, 0, 0, 0.06), 0px 3px 3px rgba(0, 0, 0, 0.04), 0px 1px 8px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>03 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 4px 5px rgba(0, 0, 0, 0.06), 0px 1px 10px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>04 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 6px 10px rgba(0, 0, 0, 0.06), 0px 1px 18px rgba(0, 0, 0, 0.04), 0px 3px 5px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>05 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 8px 10px rgba(0, 0, 0, 0.06), 0px 3px 14px rgba(0, 0, 0, 0.04), 0px 5px 5px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>06 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 12px 17px rgba(0, 0, 0, 0.06), 0px 5px 22px rgba(0, 0, 0, 0.04), 0px 7px 8px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>07 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        boxShadow:
+          "0px 16px 24px rgba(0, 0, 0, 0.06), 0px 6px 30px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>08 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        borderRadius: "4px",
+        boxShadow:
+          "0px 12px 17px rgba(0, 0, 0, 0.06), 0px 5px 22px rgba(0, 0, 0, 0.04), 0px 7px 8px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>12 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        borderRadius: "4px",
+        boxShadow:
+          "0px 16px 24px rgba(0, 0, 0, 0.06), 0px 6px 30px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>16 dp</div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "220px",
+        height: "220px",
+        background: "#FFFFFF",
+        borderRadius: "4px",
+        boxShadow:
+          "0px 24px 38px rgba(0, 0, 0, 0.06), 0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.08)",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>24 dp</div>
+  </div>
+</div>
