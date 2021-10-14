@@ -3,6 +3,85 @@
  * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+/* variables */
+:root {
+  /* white */
+  --white-full: #ffffff;
+  --white-mid: rgba(255, 255, 255, 0.52);
+  --white-disabled: rgba(255, 255, 255, 0.32);
+  --white-outline: rgba(255, 255, 255, 0.12);
+  /* black */
+  --black-full: #212121;
+  --black-mid: rgba(33, 33, 33, 0.52);
+  --black-disabled: rgba(33, 33, 33, 0.32);
+  --black-outline: rgba(33, 33, 33, 0.12);
+  --black-hover: rgba(33, 33, 33, 0.04);
+  /* surface */
+  --surface-focus: #ebebf5;
+  --surface-background: #f7f7fa;
+  /* primary */
+  --primary-full: #2183df;
+  --primary-mid: rgba(33, 131, 223, 0.52);
+  --primary-disabled: rgba(33, 131, 223, 0.24);
+  --primary-outline: rgba(33, 131, 223, 0.8);
+  --primary-hover: rgba(33, 131, 223, 0.04);
+  --primary-gradient: linear-gradient(180deg, #5babf7 0%, #1860a3 100%);
+  /* secondary */
+  --secondary-full: #ea7810;
+  --secondary-mid: rgba(234, 120, 16, 0.52);
+  --secondarydisabled: rgba(234, 120, 16, 0.24);
+  --secondaryoutline: rgba(234, 120, 16, 0.08);
+  --secondary-hover: rgba(234, 120, 16, 0.04);
+  --secondary-gradient: linear-gradient(180deg, #fb9b42 0%, #ca5412 100%);
+  /* primary accessible*/
+  --primary-accessible-full: #0b5dab;
+  --primary-accessible-mid: rgba(11, 93, 171, 0.52);
+  --primary-accessible-disabled: rgba(11, 93, 171, 0.24);
+  --primary-accessible-outline: rgba(11, 93, 171, 0.12);
+  /* secondary accessible*/
+  --secondary-accessible-full: #b75900;
+  --secondary-accessible-mid: rgba(183, 89, 0, 0.52);
+  --secondary-accessible-disabled: rgba(183, 89, 0, 0.24);
+  --psecondary-accessible-outline: rgba(183, 89, 0, 0.12);
+  /* caution*/
+  --caution-full: #ebad34;
+  --caution-mid: rgba(235, 173, 52, 0.52);
+  --caution-disabled: rgba(235, 173, 52, 0.24);
+  --caution-outline: rgba(235, 173, 52, 0.08);
+  --caution-gradient: linear-gradient(180deg, #ffee79 0%, #e4c41a 100%);
+  /* success */
+  --success-full: #00c17c;
+  --success-mid: rgba(0, 193, 124, 0.52);
+  --success-disabled: rgba(0, 193, 124, 0.24);
+  --success-outline: rgba(0, 193, 124, 0.08);
+  --success-gradient: linear-gradient(180deg, #6af7a2 0%, #17a76a 100%);
+  /* error */
+  --error-full: #e31e18;
+  --error-mid: rgba(227, 30, 24, 0.52);
+  --error-disabled: rgba(227, 30, 24, 0.24);
+  --error-outline: rgba(227, 30, 24, 0.08);
+  --error-gradient: linear-gradient(180deg, #f96f6f 0%, #b13418 100%);
+  /* rating */
+  --rating-1: #ee7874;
+  --rating-2: #f2ae6f;
+  --rating-3: #f3ce85;
+  --rating-4: #6feba1;
+  --rating-5: #66dab0;
+  /* blanket */
+  --blanket: rgba(0, 0, 0, 0.4);
+  /* surface 1 */
+  --surface-1-focus: #f2f2f2;
+  --surface-1-background: #f8f8f8;
+  /* opaque */
+  --opaque-black-full: #4d4d4d;
+  --opaque-black-mid: #909090;
+  --opaque-black-disabled: #bcbcbc;
+  --opaque-black-outline: #e4e4e4;
+  --opaque-red-outline: #fce4e3;
+  --opaque-green-outline: #ebfaf5;
+  --opaque-error-outline: #fdf8ef;
+}
+
 html,
 body {
   margin: 0;
@@ -245,7 +324,7 @@ body {
   font-style: 400;
   letter-spacing: 0px;
   line-height: 26px;
-  color: #212121;
+  color: var(--black-full);
   font-size: 1rem;
   background-color: white;
 }
