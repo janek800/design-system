@@ -1,0 +1,1743 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Basics/Colors" />
+
+# Color System
+
+**The color system is crafted according to WCAG 2.0 Accessibility guidelines, reference below 👇**
+
+#### AA
+
+WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.<br/> WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface components (such as form input borders).
+
+#### AAA
+
+WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.<br/> Large text is defined as 14 point (typically 18.66px) and bold or larger, or 18 point (typically 24px) or larger.
+
+📒 Note
+
+1. Use the primary color for interactive text / Hyperlink.
+2. Check color contrast at, <https://contrastchecker.com/>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>White</span>
+
+<div style={{ display: "flex" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#FFFFFF",
+        border: "1px solid rgba(33, 33, 33, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (16.1:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>White / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FFFFFF (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(255, 255, 255, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(255, 255, 255, 0.52)",
+        border: "1px solid rgba(33, 33, 33, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>White / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FFFFFF (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(255, 255, 255, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(255, 255, 255, 0.32)",
+        border: "1px solid rgba(33, 33, 33, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      White / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FFFFFF (32%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(255, 255, 255, 0.32)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(255, 255, 255, 0.12)",
+        border: "1px solid rgba(33, 33, 33, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>White / Outline</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FFFFFF (12%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(255, 255, 255, 0.12)
+    </div>
+  </div>
+</div>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>Black</span>
+
+<div style={{ display: "flex" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#212121",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (16.1:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Black / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#212121 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 33, 33, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 33, 33, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Black / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#212121 (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 33, 33, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 33, 33, 0.32)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Black / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#212121 (32%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 33, 33, 0.32)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 33, 33, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Black / Outline</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#212121 (12%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 33, 33, 0.12)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 33, 33, 0.04)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Black / Hover</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#212121 (4%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 33, 33, 0.04)
+    </div>
+  </div>
+</div>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>Surface</span>
+
+<div style={{ display: "flex" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#EBEBF5",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (13.59:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Surface / Focus</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EBEBF5 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 235, 245, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#F7F7FA",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (15.05:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Surface / Background
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}> #F7F7FA (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(247, 247, 250, 1)
+    </div>
+  </div>
+</div>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>Primary</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#2183DF",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>A</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (3.9:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Primary / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 131, 223, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 131, 223, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Primary / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 131, 223, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 131, 223, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 131, 223, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 131, 223, 0.08)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (8%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 131, 223, 0.08)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(33, 131, 223, 0.04)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Primary / Hover</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (4%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(33, 131, 223, 0.04)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "linear-gradient(180deg, #5BABF7 0%, #1860A3 100%)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary / Gradient
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      #5BABF6 / #1860A3
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      linear-gradient(180deg, #5BABF7 0%, #1860A3 100%)
+    </div>
+  </div>
+</div>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>Secondary</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#EA7810",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>A</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (2.91:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary / Full
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EA7810 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(234, 120, 16, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(234, 120, 16, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Secondary / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EA7810 (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(234, 120, 16, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(234, 120, 16, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EA7810 (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(234, 120, 16, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(234, 120, 16, 0.08)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EA7810 (8%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(234, 120, 16, 0.08)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(234, 120, 16, 0.04)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary / Hover
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#2183DF (4%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(234, 120, 16, 0.04)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "linear-gradient(180deg, #FB9B42 0%, #CA5412 100%)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary / Gradient
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      #FB9B42 / #CA5412
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      linear-gradient(180deg, #FB9B42 0%, #CA5412 100%)
+    </div>
+  </div>
+</div>
+
+## <span style={{color: "rgba(33, 33, 33, 0.52)"}}>Primary (Accessible)</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#0B5DAB",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (6.62:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary (Accessible) / Full
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#0B5DAB (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(11, 93, 171, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(11, 93, 171, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary (Accessible) / Mid
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#0B5DAB (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(11, 93, 171, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(11, 93, 171, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary (AAccessible) / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#0B5DAB (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(11, 93, 171, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(11, 93, 171, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Primary (Accessible) / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#0B5DAB (12%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(11, 93, 171, 0.12)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Secondary (Accessible)</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#B75900",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (2.91:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary (Accessible) / Full
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#B75900 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(183, 89, 0, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(183, 89, 0, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary (Accessible) / Mid
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#B75900 (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(183, 89, 0, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(183, 89, 0, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary (Accessible) / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#B75900 (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(183, 89, 0, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(183, 89, 0, 0.12)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Secondary (Accessible) / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#B75900 (12%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(183, 89, 0, 0.12)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Caution</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#EBAD34",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>A</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (1.95:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Caution / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EBAD34 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 173, 52, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(235, 173, 52, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Caution / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EBAD34 (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 173, 52, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(235, 173, 52, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Caution / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EBAD34 (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 173, 52, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(235, 173, 52, 0.08)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Caution / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#B75900 (8%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 173, 52, 0.08)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "flex-start",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "linear-gradient(180deg, #FFEE79 0%, #E4C41A 100%)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Caution / Gradient
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      #FFEE79 / #E4C41A
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      linear-gradient(180deg, #FFEE79 0%, #E4C41A 100%)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Success</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#00C17C",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>A</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (2.35:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Success / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#00C17C (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(0, 193, 124, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(0, 193, 124, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Success / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#00C17C (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(0, 193, 124, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(0, 193, 124, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Success / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#00C17C (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(0, 193, 124, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(0, 193, 124, 0.08)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Success / Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#00C17C (8%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(0, 193, 124, 0.08)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "flex-start",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "linear-gradient(180deg, #6AF7A2 0%, #17A76A 100%)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Success / Gradient
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      #6AF7A2 / #17A76A
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      linear-gradient(180deg, #6AF7A2 0%, #17A76A 100%)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Error</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#E31E18",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (4.7:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Error / Full</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E31E18 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(227, 30, 24, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(227, 30, 24, 0.52)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Error / Mid</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E31E18 (52%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(227, 30, 24, 0.52)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(227, 30, 24, 0.24)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Error / Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E31E18 (24%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(227, 30, 24, 0.24)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(227, 30, 24, 0.08)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Error / Outline</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E31E18 (8%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(227, 30, 24, 0.08)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "flex-start",
+      margin: "20px 32px",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "linear-gradient(180deg, #F96F6F 0%, #B13418 100%)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Error / Gradient
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      #F96F6F / #B13418
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      linear-gradient(180deg, #F96F6F 0%, #B13418 100%)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Rating</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#EE7874",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Rating / 1</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EE7874 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(238, 120, 116, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#F2AE6F",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Rating / 2</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#F2AE6F (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(242, 174, 111, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#F3CE85",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Rating / 3</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#F3CE85 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(243, 206, 133, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#6FEBA1",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Rating / 4</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#6FEBA1 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(111, 235, 161, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#66DAB0",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>Rating / 5</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#66DAB0 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(102, 218, 176, 1)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Blanket</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "rgba(0, 0, 0, 0.4)",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Blanket / Blanket
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#000000 (40%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(0, 0, 0, 0.4)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Surface 1</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#F2F2F2",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (12.78:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Surface 1 / Focus
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#F2F2F2 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(242, 242, 242, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#F8F8F8",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AAA</b>
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (15.16:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Surface 1 / Background
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#F8F8F8 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(248, 248, 248, 1)
+    </div>
+  </div>
+</div>
+
+## <span style={{ color: "rgba(33, 33, 33, 0.52)" }}>Opaque</span>
+
+<div style={{ display: "flex", flexWrap: "wrap" }}>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#4D4D4D",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (8.45:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Black Full
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#4D4D4D (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(77, 77, 77, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#909090",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Black Mid
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#909090 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(144, 144, 144, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#BCBCBC",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Black Disabled
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#BCBCBC (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(188, 188, 188, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#E4E4E4",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Black Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E4E4E4 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(228, 228, 228, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#FCE4E3",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Red Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FCE4E3 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(252, 228, 227, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#EBFAF5",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Green Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#EBFAF5 (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(235, 250, 245, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#E4F0FB",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      <b>AA</b>{" "}
+      <span style={{ fontSize: "14px", color: "rgba(33, 33, 33, 0.32)" }}>
+        (8.45:1)
+      </span>
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Blue Full
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#E4F0FB (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(228, 240, 251, 1)
+    </div>
+  </div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      margin: "20px 32px ",
+    }}
+  >
+    <div
+      style={{
+        width: "117px",
+        height: "117px",
+        background: "#FDF8EF",
+        borderRadius: "3px",
+        marginBottom: "13px",
+      }}
+    ></div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>-</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      Opaque / Error Outline
+    </div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>#FDF8EF (100%)</div>
+    <div style={{ fontSize: "14px", textAlign: "center" }}>
+      rgba(253, 248, 239, 1)
+    </div>
+  </div>
+</div>
