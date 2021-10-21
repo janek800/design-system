@@ -23,7 +23,7 @@
   --primary-full: #2183df;
   --primary-mid: rgba(33, 131, 223, 0.52);
   --primary-disabled: rgba(33, 131, 223, 0.24);
-  --primary-outline: rgba(33, 131, 223, 0.8);
+  --primary-outline: rgba(33, 131, 223, 0.08);
   --primary-hover: rgba(33, 131, 223, 0.04);
   --primary-gradient: linear-gradient(180deg, #5babf7 0%, #1860a3 100%);
   /* secondary */
