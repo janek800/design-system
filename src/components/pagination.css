@@ -1,0 +1,33 @@
+.ant-pagination-prev,
+.ant-pagination-next {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-pagination-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--black-full);
+}
+
+.ant-pagination-item:hover {
+  background-color: var(--surface-background);
+}
+
+.ant-pagination-item:hover a {
+  color: var(--black-full);
+}
+
+.ant-pagination-item-active {
+  background-color: var(--primary-hover);
+}
+
+.ant-pagination-item-active a {
+  color: var(--primary-full);
+}
