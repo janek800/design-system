@@ -1,0 +1,12 @@
+.ant-breadcrumb > span,
+.ant-breadcrumb > span a {
+  color: var(--black-mid);
+}
+
+.ant-breadcrumb > span:last-child a {
+  color: var(--black-mid);
+}
+
+.ant-breadcrumb a:hover {
+  color: var(--black-mid);
+}
