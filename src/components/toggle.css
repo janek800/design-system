@@ -1,0 +1,46 @@
+.toggle-container {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-hover-background {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.ant-switch:hover + .toggle-hover-background {
+  background-color: var(--black-hover);
+}
+
+.ant-switch-checked:hover + .toggle-hover-background {
+  background-color: var(--primary-hover);
+}
+
+.ant-switch {
+  min-width: 2.5rem;
+  height: 1.5rem;
+}
+
+.ant-switch:focus {
+  box-shadow: none;
+}
+
+.ant-switch-handle {
+  width: 1.375rem;
+  height: 1.375rem;
+  top: 0.063rem;
+}
+
+.ant-switch-handle:before {
+  border-radius: 50%;
+}
+
+.ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 1.375rem - 0.063rem);
+}
