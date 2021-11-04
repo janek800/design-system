@@ -1,0 +1,15 @@
+.ant-tooltip-inner {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--black-full);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  min-height: 1.5rem;
+  box-shadow: none;
+}
+
+.ant-tooltip-arrow-content {
+  background-color: var(--black-full);
+  height: 0.563rem;
+  width: 0.563rem;
+}
