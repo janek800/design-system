@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './button.css';
+import "antd/dist/antd.css";
 import { Button as ButtonAnt } from 'antd';
 
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ loading, icon, disabled, type, size, label, ...props }) => {
+export const Button = ({ loading, icon, disabled, type, size, label, onClick, href, ...props }) => {
   let mode;
   switch(type) {
     case "primary":
@@ -60,6 +61,8 @@ export const Button = ({ loading, icon, disabled, type, size, label, ...props })
   
   return (
     <ButtonAnt
+      href={href}
+      onClick={onClick}
       loading={loading}
       icon={icon}
       disabled={disabled}
@@ -83,13 +86,17 @@ Button.propTypes = {
    */
   onClick: PropTypes.func,
   /**
+   * Redirect url of link button
+   */
+   href: PropTypes.string,
+  /**
    * Actions are not available for button
    */
   disabled: PropTypes.bool,
   /**
    * Icon component to be displayed inside button
    */
-  icon: PropTypes.elementType,
+  icon: PropTypes.element,
   /**
    * Adds loading spinner in button, avoids multiple submits
    */
