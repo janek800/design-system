@@ -79,30 +79,45 @@
   --opaque-black-outline: #e4e4e4;
   --opaque-red-outline: #fce4e3;
   --opaque-green-outline: #ebfaf5;
+  --opaque-blue-outline: #e4f0fb;
   --opaque-error-outline: #fdf8ef;
   /* elevation */
-  --elevation-01-dp: 0px 1px 1px rgba(0, 0, 0, 0.06),
-    0px 2px 1px rgba(0, 0, 0, 0.04), 0px 0px 3px rgba(0, 0, 0, 0.08);
-  --elevation-02-dp: 0px 1px 2px rgba(0, 0, 0, 0.06),
-    0px 2px 1px rgba(0, 0, 0, 0.04), 0px 1px 5px rgba(0, 0, 0, 0.08);
-  --elevation-03-dp: 0px 3px 4px rgba(0, 0, 0, 0.06),
-    0px 3px 3px rgba(0, 0, 0, 0.04), 0px 1px 8px rgba(0, 0, 0, 0.08);
-  --elevation-04-dp: 0px 4px 5px rgba(0, 0, 0, 0.06),
-    0px 1px 10px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08);
-  --elevation-05-dp: 0px 6px 10px rgba(0, 0, 0, 0.06),
-    0px 1px 18px rgba(0, 0, 0, 0.04), 0px 3px 5px rgba(0, 0, 0, 0.08);
-  --elevation-06-dp: 0px 8px 10px rgba(0, 0, 0, 0.06),
-    0px 3px 14px rgba(0, 0, 0, 0.04), 0px 5px 5px rgba(0, 0, 0, 0.08);
-  --elevation-07-dp: 0px 12px 17px rgba(0, 0, 0, 0.06),
-    0px 5px 22px rgba(0, 0, 0, 0.04), 0px 7px 8px rgba(0, 0, 0, 0.08);
-  --elevation-08-dp: 0px 16px 24px rgba(0, 0, 0, 0.06),
-    0px 6px 30px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08);
-  --elevation-12-dp: 0px 12px 17px rgba(0, 0, 0, 0.06),
-    0px 5px 22px rgba(0, 0, 0, 0.04), 0px 7px 8px rgba(0, 0, 0, 0.08);
-  --elevation-16-dp: 0px 16px 24px rgba(0, 0, 0, 0.06),
-    0px 6px 30px rgba(0, 0, 0, 0.04), 0px 8px 10px rgba(0, 0, 0, 0.08);
-  --elevation-24-dp: 0px 24px 38px rgba(0, 0, 0, 0.06),
-    0px 9px 46px rgba(0, 0, 0, 0.04), 0px 11px 15px rgba(0, 0, 0, 0.08);
+  --elevation-01-dp: 0px 0.063rem 0.063rem rgba(0, 0, 0, 0.06),
+    0px 0.125rem 0.063rem rgba(0, 0, 0, 0.04),
+    0px 0px 0.188rem rgba(0, 0, 0, 0.08);
+  --elevation-02-dp: 0px 0.063rem 0.125rem rgba(0, 0, 0, 0.06),
+    0px 0.125rem 0.063rem rgba(0, 0, 0, 0.04),
+    0px 0.063rem 0.313rem rgba(0, 0, 0, 0.08);
+  --elevation-03-dp: 0px 0.188rem 0.25rem rgba(0, 0, 0, 0.06),
+    0px 0.188rem 0.188rem rgba(0, 0, 0, 0.04),
+    0px 0.063rem 0.5rem rgba(0, 0, 0, 0.08);
+  --elevation-04-dp: 0px 0.25rem 0.313rem rgba(0, 0, 0, 0.06),
+    0px 0.063rem 0.625rem rgba(0, 0, 0, 0.04),
+    0px 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  --elevation-05-dp: 0px 0.375rem 0.625rem rgba(0, 0, 0, 0.06),
+    0px 0.063rem 1.125rem rgba(0, 0, 0, 0.04),
+    0px 0.188rem 0.313rem rgba(0, 0, 0, 0.08);
+  --elevation-06-dp: 0px 0.5rem 0.625rem rgba(0, 0, 0, 0.06),
+    0px 0.188rem 0.875rem rgba(0, 0, 0, 0.04),
+    0px 0.313rem 0.313rem rgba(0, 0, 0, 0.08);
+  --elevation-07-dp: 0px 0.75rem 1.063rem rgba(0, 0, 0, 0.06),
+    0px 0.313rem 1.375rem rgba(0, 0, 0, 0.04),
+    0px 0.438rem 0.5rem rgba(0, 0, 0, 0.08);
+  --elevation-08-dp: 0px 1rem 1.5rem rgba(0, 0, 0, 0.06),
+    0px 0.375rem 1.875rem rgba(0, 0, 0, 0.04),
+    0px 0.5rem 0.625rem rgba(0, 0, 0, 0.08);
+  --elevation-12-dp: 0px 0.75rem 1.063rem rgba(0, 0, 0, 0.06),
+    0px 0.313rem 1.375rem rgba(0, 0, 0, 0.04),
+    0px 0.438rem 0.5rem rgba(0, 0, 0, 0.08);
+  --elevation-16-dp: 0px 1rem 1.5rem rgba(0, 0, 0, 0.06),
+    0px 0.375rem 1.875rem rgba(0, 0, 0, 0.04),
+    0px 0.5rem 0.625rem rgba(0, 0, 0, 0.08);
+  --elevation-24-dp: 0px 1.5rem 2.375rem rgba(0, 0, 0, 0.06),
+    0px 0.563rem 2.875rem rgba(0, 0, 0, 0.04),
+    0px 0.688rem 0.938rem rgba(0, 0, 0, 0.08);
+}
+:root body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -222,10 +237,10 @@ sup {
   vertical-align: baseline;
 }
 sup {
-  top: -0.5em;
+  top: -0.5rem;
 }
 sub {
-  bottom: -0.25em;
+  bottom: -0.25rem;
 }
 img {
   border: 0;
@@ -346,7 +361,7 @@ body {
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: 400;
   letter-spacing: 0px;
-  line-height: 26px;
+  line-height: 1.625rem;
   color: var(--black-full);
   font-size: 1rem;
   background-color: white;
@@ -366,52 +381,52 @@ h1 {
   font-size: 6rem;
   font-weight: 700;
   letter-spacing: -1.5px;
-  line-height: 114px;
+  line-height: 7.125rem;
 }
 h2 {
   font-size: 3.75rem;
   font-weight: 700;
   letter-spacing: -0.5px;
-  line-height: 72px;
+  line-height: 4.5rem;
 }
 h3 {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0px;
-  line-height: 56px;
+  line-height: 3.5rem;
 }
 h4 {
   font-size: 2.15rem;
   font-weight: 700;
-  letter-spacing: -1px;
-  line-height: 40px;
+  letter-spacing: -0.063rem;
+  line-height: 2.5rem;
 }
 h5 {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.28px;
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 h6 {
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -0.35px;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 p {
   font-size: 1rem;
   letter-spacing: 0px;
-  line-height: 26px;
+  line-height: 1.625rem;
 }
 sub,
 sup {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 sub {
-  bottom: -0.2em;
+  bottom: -0.2rem;
 }
 sup {
-  top: -0.2em;
+  top: -0.2rem;
 }
 b {
   font-weight: bold;
@@ -423,16 +438,11 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-  font-size: 14px;
-  line-height: 20px;
+  line-height: 1.25rem;
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: 400;
-  padding: 0.75rem 0;
   line-height: 1.5rem !important;
-  border: none;
-  border-radius: 0;
   box-sizing: border-box;
-  color: #212121;
   outline: none;
 }
 input[type="text"] ::placeholder,
@@ -441,24 +451,23 @@ input[type="password"] ::placeholder,
 textarea ::placeholder {
   color: #778b91;
 }
-input[type="text"][disabled],
 input[type="email"][disabled],
 input[type="password"][disabled],
 textarea[disabled] {
   opacity: 0.5;
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px white inset;
+  -webkit-box-shadow: 0 0 0 62.5rem white inset;
 }
 .checkbox {
   display: inline-block;
   height: 3rem;
   position: relative;
   vertical-align: middle;
-  width: 44px;
+  width: 2.75rem;
 }
 .checkbox input[type="checkbox"] {
-  font-size: 1em;
+  font-size: 1rem;
   visibility: hidden;
 }
 .checkbox input[type="checkbox"] + span:before {
@@ -467,21 +476,20 @@ input:-webkit-autofill {
   right: auto;
   bottom: auto;
   left: 50%;
-  width: 0.85em;
-  height: 0.85em;
+  width: 0.85rem;
+  height: 0.85rem;
   transform: translate3d(-50%, -50%, 0);
   background: transparent;
-  box-shadow: #2cc5d2 0 0 0 1px inset;
+  box-shadow: #2cc5d2 0 0 0 0.063rem inset;
   content: "";
   display: block;
 }
 .checkbox input[type="checkbox"]:checked + span:before {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   box-shadow: none;
   color: #2cc5d2;
-  margin-top: -1px;
-  font-family: "percolate";
+  margin-top: -0.063rem;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -502,10 +510,10 @@ input:-webkit-autofill {
 }
 .input-symbol [class^="icon-"],
 .input-symbol [class*=" icon-"] {
-  left: 1em;
+  left: 1rem;
 }
 .input-symbol input {
-  padding-left: 3em;
+  padding-left: 3rem;
 }
 .input-symbol input {
   width: 100%;
@@ -520,26 +528,14 @@ input:-webkit-autofill {
   transform: translate3d(0, -50%, 0);
   background: transparent;
   color: #aaa;
-  font-size: 1em;
-  height: 1em;
+  font-size: 1rem;
+  height: 1rem;
   position: absolute;
   top: 50%;
-  width: 1em;
-}
-@font-face {
-  font-family: "percolate";
-  src: url("./assets/icon/percolate.eot?-5w3um4");
-  src: url("./assets/icon/percolate.eot?#iefix5w3um4")
-      format("embedded-opentype"),
-    url("./assets/icon/percolate.woff?5w3um4") format("woff"),
-    url("./assets/icon/percolate.ttf?5w3um4") format("truetype"),
-    url("./assets/icon/percolate.svg?5w3um4") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  width: 1rem;
 }
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: "percolate";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -953,14 +949,14 @@ a:focus {
   outline: none;
 }
 .list-heading {
-  letter-spacing: 0.3em;
-  text-indent: 0.3em;
+  letter-spacing: 0.3rem;
+  text-indent: 0.3rem;
   text-transform: uppercase;
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  font-size: 11px;
-  padding-left: 15px;
-  line-height: 40px;
+  font-size: 0.688rem;
+  padding-left: 0.938rem;
+  line-height: 2.5rem;
   background: #f8f8f8;
   color: #aaa;
 }
@@ -968,11 +964,11 @@ a:focus {
   opacity: 1;
   animation: spin 2s infinite linear;
   display: inline-block;
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 .list-item {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   display: flex;
   flex-wrap: wrap;
   height: 3rem;
@@ -995,7 +991,7 @@ a:focus {
 }
 .list-item .actions {
   transition: all 200ms ease-in;
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .list-item .actions a {
   display: inline-block;
@@ -1010,8 +1006,8 @@ a:focus {
   color: #555;
 }
 .list-item .actions [class^="icon-"] {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   line-height: 3rem;
   text-align: center;
 }
@@ -1028,7 +1024,7 @@ a:focus {
   cursor: pointer;
 }
 .list-item + .list-item {
-  border-top: 1px solid #f0f9fb;
+  border-top: 0.063rem solid #f0f9fb;
 }
 .list-item.checked input[type="text"] {
   color: #ccc;
@@ -1044,7 +1040,7 @@ a:focus {
   display: flex;
   align-items: center;
   line-height: 1rem;
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 .loading-item .glow-checkbox,
 .loading-item .glow-text span {
@@ -1055,21 +1051,21 @@ a:focus {
   display: inline-block;
 }
 .loading-item .glow-checkbox {
-  margin-right: 16px;
-  width: 12px;
-  height: 12px;
+  margin-right: 1rem;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 .loading-item + .loading-item {
-  border-top: 1px solid #f0f9fb;
+  border-top: 0.063rem solid #f0f9fb;
 }
 .list-items {
   position: relative;
   background: white;
-  min-height: 288px;
+  min-height: 18rem;
 }
 .list-items .select-placeholder {
   border: none;
-  width: 48px;
+  width: 3rem;
 }
 .wrapper-message {
   position: absolute;
@@ -1084,21 +1080,21 @@ a:focus {
 }
 .wrapper-message [class^="icon-"],
 .wrapper-message [class*=" icon-"] {
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 3.5rem;
   color: #2cc5d2;
   display: block;
 }
 .wrapper-message .title-message {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #555;
 }
 .wrapper-message .subtitle-message {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   color: #666;
 }
 .page.lists-show {
@@ -1110,14 +1106,14 @@ a:focus {
   padding: 1.5rem 1.25rem;
   text-align: center;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 40rem) {
   .page.lists-show nav {
     text-align: left;
   }
 }
 .page.lists-show nav .title-page {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   line-height: 2rem;
   cursor: pointer;
   white-space: nowrap;
@@ -1132,4 +1128,16 @@ a:focus {
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
+}
+
+.tooltip-wrapper {
+  width: 21.875rem;
+  height: 6.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion-wrapper {
+  width: 34.25rem;
 }
