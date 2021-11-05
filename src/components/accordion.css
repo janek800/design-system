@@ -1,0 +1,53 @@
+.accordion-wrapper {
+  padding: 1.5rem;
+  background-color: var(--black-outline);
+}
+
+.ant-collapse.ant-collapse-icon-position-right {
+  border: none;
+}
+
+.ant-collapse .ant-collapse-item-active:first-child {
+  padding-top: 0px;
+}
+
+.ant-collapse .ant-collapse-item-active:last-child {
+  padding-bottom: 0px;
+}
+
+.ant-collapse-item-active {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--black-outline);
+  border: none;
+}
+
+.ant-collapse.ant-collapse-icon-position-right
+  > .ant-collapse-item
+  > .ant-collapse-header {
+  background-color: var(--white-full);
+  padding: 1rem 1.5rem;
+}
+
+.ant-collapse-item-active .ant-collapse-content {
+  border-top: none;
+}
+
+.ant-collapse-item-active .ant-collapse-content .ant-collapse-content-box {
+  padding: 0.5rem 1.5rem 2rem 1.5rem;
+  color: var(--black-mid);
+}
+.ant-collapse.ant-collapse-icon-position-right
+  > .ant-collapse-item-disabled
+  > .ant-collapse-header {
+  background-color: var(--black-outline);
+  color: var(--black-disabled);
+}
+
+.ant-collapse.ant-collapse-icon-position-right
+  > .ant-collapse-item-disabled
+  > .ant-collapse-header
+  > svg
+  > path {
+  stroke: var(--black-disabled);
+}

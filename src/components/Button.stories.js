@@ -37,7 +37,6 @@ export default {
 
 const Template = (args) => <Button {...args} >{args.label}</Button>;
 
-
 export const Primary = Template.bind({});
 
 Primary.args = {

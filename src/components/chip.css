@@ -1,0 +1,33 @@
+.ant-tag {
+  padding: 0.25rem 0.563rem;
+  border: 0.063rem solid var(--black-disabled);
+  border-radius: 1rem;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.ant-tag.ant-tag-hidden {
+  display: none;
+}
+
+.ant-tag svg:first-child {
+  margin-right: 0.5rem;
+}
+
+.ant-tag .ant-tag-close-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-tag .ant-tag-close-icon svg:first-child {
+  margin-right: 0px;
+}
+
+.chip-active {
+  background: var(--primary-outline);
+  border: 0.063rem solid var(--primary-mid);
+}

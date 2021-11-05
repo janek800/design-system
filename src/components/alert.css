@@ -1,0 +1,68 @@
+.ant-alert-info.alert {
+  border: none;
+  max-width: 50rem;
+}
+/* default */
+.ant-alert-info.alert.alert-default {
+  background-color: var(--black-full);
+}
+
+.alert-default .ant-alert-message {
+  color: var(--white-full);
+}
+/* alert */
+.ant-alert-info.alert.alert-alert {
+  background-color: var(--opaque-red-outline);
+}
+
+.alert-alert .ant-alert-message {
+  color: var(--error-full);
+}
+/* success */
+.ant-alert-info.alert.alert-success {
+  background-color: var(--opaque-green-outline);
+}
+
+.alert-success .ant-alert-message {
+  color: var(--success-full);
+}
+/* info */
+.ant-alert-info.alert.alert-info {
+  background-color: var(--opaque-blue-outline);
+}
+
+.alert-info .ant-alert-message {
+  color: var(--primary-full);
+}
+/* warning */
+.ant-alert-info.alert.alert-warning {
+  background-color: var(--opaque-error-outline);
+}
+
+.alert-warning .ant-alert-message {
+  color: var(--caution-full);
+}
+
+svg.ant-alert-icon {
+  margin-right: 0.75rem;
+}
+
+.alert-default .ant-alert-message {
+  color: var(--white-full);
+}
+
+.alert-default .ant-alert-close-icon .anticon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("../assets/icon/crossBlue.svg");
+}
+
+.ant-alert-close-icon .anticon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("../assets/icon/cross.svg");
+}
+
+.ant-alert-close-icon .anticon svg {
+  display: none;
+}
